@@ -1,12 +1,12 @@
 
 # Campfire Settings
-SUBDOMAIN = "nicklang"
-USERNAME = "nick_lang"
-PASSWORD = "d3n4lirulz"
-ROOM_NAME = "Room 1"
+SUBDOMAIN = ""
+USERNAME = ""
+PASSWORD = ""
+ROOM_NAME = ""
 
 # IRC Settings
-IRC_NAME = "bold-bot"
-IRC_ROOM = "benchmark_abc"
+IRC_NAME = ""
+IRC_ROOM = ""
 IRC_SERVER = "irc.freenode.net"
 IRC_PORT = 6667
