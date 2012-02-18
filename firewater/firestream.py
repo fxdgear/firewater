@@ -1,7 +1,7 @@
 import ipdb
 import time
 import pyfire
-from firewater.settings import SUBDOMAIN, USERNAME, PASSWORD, ROOM_NAME
+from firewater.settings import SUBDOMAIN, USERNAME, PASSWORD, ROOM_NAME, REAL_NAME
 
 
 class FireStream(object):
@@ -37,7 +37,7 @@ class FireStream(object):
         if message.user:
             user = message.user.name
 
-        if not user == "Mr Awesome":
+        if not user == REAL_NAME:
 
             time.sleep(2)
             msg = ""

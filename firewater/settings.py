@@ -4,6 +4,7 @@ SUBDOMAIN = ""
 USERNAME = ""
 PASSWORD = ""
 ROOM_NAME = ""
+REAL_NAME = ""
 
 # IRC Settings
 IRC_NAME = ""
