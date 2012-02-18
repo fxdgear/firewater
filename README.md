@@ -34,7 +34,7 @@ in the firewater directory run ``python bot.py``. If you like you can `tail -f f
 
 The bot will join both your camfire room and your irc room.
 
-Any messages said in Campfire will show up in IRC as: [Persons Name] what they said
+Any messages said in Campfire will show up in IRC as: "[Persons Name] what they said"  
 Any message sent from IRC will hsow up in Campfire as though you were there and you said it yourself.
 
 ## Problems
