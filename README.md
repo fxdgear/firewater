@@ -34,10 +34,10 @@ in the firewater directory run ``python bot.py``. If you like you can `tail -f f
 
 The bot will join both your camfire room and your irc room.
 
-Any messages said in Campfire will show up in IRC as: "[Persons Name] what they said"  
-Any message sent from IRC will hsow up in Campfire as though you were there and you said it yourself.
+Any messages said in Campfire will show up in IRC as: [Persons Name] what they said
+Any message sent from IRC will show up in Campfire as though you were there and you said it yourself.
 
 ## Problems
 
-1) The program doesn't exit gracefully. Something in the campfire stream is not exiting and I havne't had time to look at it yet.
-2) Messages sent from campfire to IRC are SLOW they arrive seconds after the message is sent, but then when they get sent to IRC something is going on and the message is not being immidiatly sent into IRC.
+1. The program doesn't exit gracefully. Something in the campfire stream is not exiting and I havne't had time to look at it yet.  
+2. Messages sent from campfire to IRC are SLOW they arrive seconds after the message is sent, but then when they get sent to IRC something is going on and the message is not being immidiatly sent into IRC.
